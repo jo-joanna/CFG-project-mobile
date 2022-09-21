@@ -1,13 +1,14 @@
 img {
-    width: 420;
-    max-width: 100%;
-    height: 130,
+    width: 420px;
+    min-width: 100%;
+    height: 100%;
 }
 
 
 input {
     display: block;
-    width: 300px;
+    width: 280px;
+    min-width: 80%;
     border: solid;
     border-top-width: 1px;
     border-left-width: 1px;
@@ -18,7 +19,7 @@ input {
     box-shadow: 2px 2px 2px #7DE38D;
   }
   
-label, textarea {
+label, textarea, button.button {
     display: block;
     width: 100%;
   }
@@ -30,29 +31,30 @@ label, textarea {
   font-size: 20pt;
   font-family: Tahoma;
 
+
 }
   
 .formContainer {
     display: flex;
     flex-direction: column;
     align-items: center;
-    margin: 20px;
+    margin: 50px;
     padding: 10px;    
 }
     
 label.text {
-    margin: 10px 20px 0 20px;
-    padding: 20px 20px 20px 20px;
+    margin: 20px 20px 0 20px;
     font-size: 40pt;
     font-weight: bold;
     color: #F72585;
     border: 0;
     width: 300px;
+    text-align: center;
+
 }
 
 .text {
-    margin: 20px;
-    padding: 10px;
+    padding: 20px; 
     color: #101010;
     font-size: 12pt;
     font-weight: "bold";
@@ -78,7 +80,12 @@ label.text {
   }
 
   button.button {
+    min-width: 80%;
+    width: 260px;
+    padding: 0 10px;
+    align-items: center;
     width: 320px;
+    /* min-width: 80%; */
     background-color: #7DE38D;
     color: #023047;
     align-self: center;
@@ -86,9 +93,9 @@ label.text {
     padding: 16px 0;
     border: 0;
     border-radius: 4px;
-    margin-top: 50px;
+    margin-top: 30px;
     margin-bottom: 50px;
-    font-size: 15px;
+    font-size: 20px;
     font-weight: bold;
     box-shadow: 2px 2px 2px lightgrey;
   }
