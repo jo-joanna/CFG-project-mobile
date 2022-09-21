@@ -1,14 +1,13 @@
 img {
-    width: 420px;
-    min-width: 100%;
-    height: 100%;
+    width: 100%;
+    min-width: 280px;
 }
 
 
 input {
     display: block;
-    width: 280px;
-    min-width: 80%;
+    /* min-width: 280px; */
+    width: 100px;
     border: solid;
     border-top-width: 1px;
     border-left-width: 1px;
@@ -17,6 +16,8 @@ input {
     border-color: grey;
     border-radius: 3px;
     box-shadow: 2px 2px 2px #7DE38D;
+    
+
   }
   
 label, textarea, button.button {
@@ -27,9 +28,8 @@ label, textarea, button.button {
 .container {
   background-color: white;
   color: #101010;
-  margin: auto;
-  font-size: 20pt;
-  font-family: Tahoma;
+  font-size: 18pt;
+  font-family: roboto, san-francisco;
 
 
 }
@@ -38,37 +38,40 @@ label, textarea, button.button {
     display: flex;
     flex-direction: column;
     align-items: center;
-    margin: 50px;
-    padding: 10px;    
+    width: 80%;
+    margin: auto;
 }
     
 label.text {
-    margin: 20px 20px 0 20px;
-    font-size: 40pt;
+    margin: 10px 10px 0 10px;
+    font-family: roboto, san-francisco;
+    font-size: 35pt;
     font-weight: bold;
     color: #F72585;
     border: 0;
-    width: 300px;
+    width: 80%;
     text-align: center;
 
 }
 
 .text {
-    padding: 20px; 
+    padding: 10px; 
     color: #101010;
     font-size: 12pt;
     font-weight: "bold";
     text-align: 'left';
     opacity: 0.8;
     min-width: 100%;
-  
+    font-family: roboto, san-francisco;
+    margin: 5px 20px;
+   
   }
 
   textarea {
     height: 100px;
-    width: 300px;
-    font-family: Tahoma;
-    font-size: 20px;
+    width: 280px;
+    font-family: roboto;
+    font-size: 12px;
     border: solid;
     border-top-width: 1px;
     border-left-width: 1px;
@@ -80,17 +83,14 @@ label.text {
   }
 
   button.button {
-    min-width: 80%;
-    width: 260px;
-    padding: 0 10px;
     align-items: center;
     width: 320px;
-    /* min-width: 80%; */
+    min-width: 80%;
     background-color: #7DE38D;
     color: #023047;
     align-self: center;
     box-shadow: 2px;
-    padding: 16px 0;
+    padding: 10px 0;
     border: 0;
     border-radius: 4px;
     margin-top: 30px;
@@ -98,4 +98,5 @@ label.text {
     font-size: 20px;
     font-weight: bold;
     box-shadow: 2px 2px 2px lightgrey;
+    font-family: roboto, san-francisco;
   }
