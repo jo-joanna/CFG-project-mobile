@@ -46,17 +46,17 @@
     <div id="content" class="imageBackr">
       <img src="cover.png" />
         <form onSubmit={sendEmail} class="formContainer">
-            <label class="text">Please fill out the form to contact us</label>
-            <p></p>
-            <input type="text" name="user_name" id="user_name" minLength="3" placeholder="Enter your First Name" class="text" required /><br>
+            <label class="text">Contact us</label>
+            <p>Please fill out the form</p>
+            <input type="text" name="user_name" id="user_name" minLength="3" placeholder="Enter first name" class="text" required /><br>
         
-            <input type="text" name="user_surname" id="user_surname" minLength="3" placeholder="Enter your Last Name" class="text" required /><br>
+            <input type="text" name="user_surname" id="user_surname" minLength="3" placeholder="Enter last name" class="text" required /><br>
         
             <input type="email" name="user_email" id="user_email" minLength="3" placeholder="Enter your email" class="text" required /><br>
         
             <textarea name="message" id="message" maxLength="1000" placeholder="Enter your message. Max 1000 characters" class="text"></textarea>
             
-            <button class="button" type="submit" onclick="sendMail()">submit</button>    
+            <button class="button" type="submit" onclick="sendMail()">Submit</button>    
         </form>
         
     </div>
